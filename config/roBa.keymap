@@ -50,11 +50,6 @@
             key-positions = <24 25>;
         };
 
-        MB3 {
-            bindings = <&mkp MB3>;
-            key-positions = <19 20>;
-        };
-
         single_quotation {
             bindings = <&kp SQT>;
             key-positions = <20 21>;
@@ -127,7 +122,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &none   &mkp MB1  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &none   &mkp MB1  &mkp MB2  &mkp MB3
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
