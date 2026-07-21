@@ -44,11 +44,6 @@
             key-positions = <11 10>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
@@ -57,6 +52,11 @@
         MB3 {
             bindings = <&mkp MB3>;
             key-positions = <19 20>;
+        };
+
+        single_quotation {
+            bindings = <&kp SQT>;
+            key-positions = <20 21>;
         };
     };
 
