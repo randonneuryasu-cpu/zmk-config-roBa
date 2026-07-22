@@ -67,7 +67,7 @@
 
         LtShift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <14 13>;
+            key-positions = <13 12>;
         };
 
         LtWin {
@@ -82,7 +82,7 @@
 
         LtCtl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <25 26>;
+            key-positions = <25 24>;
         };
     };
 
