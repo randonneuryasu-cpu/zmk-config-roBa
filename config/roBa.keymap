@@ -84,11 +84,6 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <25 26>;
         };
-
-        RtCtl {
-            bindings = <&kp RIGHT_CONTROL>;
-            key-positions = <29 30>;
-        };
     };
 
     macros {
