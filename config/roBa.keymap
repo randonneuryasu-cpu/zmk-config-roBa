@@ -60,8 +60,8 @@
             key-positions = <32 31>;
         };
 
-        RtAlt {
-            bindings = <&kp RIGHT_ALT>;
+        RtCtl {
+            bindings = <&kp RIGHT_CONTROL>;
             key-positions = <30 31>;
         };
 
