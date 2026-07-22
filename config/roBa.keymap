@@ -55,8 +55,8 @@
             key-positions = <33 32>;
         };
 
-        RtCtl {
-            bindings = <&kp RIGHT_CONTROL>;
+        RtAlt {
+            bindings = <&kp RIGHT_ALT>;
             key-positions = <32 31>;
         };
 
@@ -75,14 +75,19 @@
             key-positions = <22 23>;
         };
 
-        LtCtl {
-            bindings = <&kp LEFT_CONTROL>;
+        LtAlt {
+            bindings = <&kp LEFT_ALT>;
             key-positions = <23 24>;
         };
 
-        LtAlt {
-            bindings = <&kp LEFT_ALT>;
+        LtCtl {
+            bindings = <&kp LEFT_CONTROL>;
             key-positions = <25 26>;
+        };
+
+        RtCtl {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <29 30>;
         };
     };
 
@@ -123,7 +128,7 @@
         FUNCTION {
             bindings = <
 &kp LC(HOME)    &kp HOME   &kp UP_ARROW    &kp END        &kp LC(END)                            &kp MINUS          &kp N7        &kp N8        &kp NUMBER_9  &kp PERCENT
-&kp LC(LEFT)    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp LC(RIGHT)  &trans         &kp F13  &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RWIN
+&kp LC(LEFT)    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp LC(RIGHT)  &trans         &kp F13  &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
 &kp PAGE_UP     &kp LG(V)  &kp LA(LC(V))   &kp LS(LC(V))  &kp PAGE_DOWN  &trans         &trans   &kp EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &kp LEFT_SHIFT  &trans     &trans          &trans         &trans         &kp ENTER      &trans   &kp RC(BACKSPACE)                                            &trans
             >;
@@ -131,10 +136,10 @@
 
         NUM {
             bindings = <
-&kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN                                               &kp F12  &kp F7         &kp F8            &kp F9        &kp PIPE
-&kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp F11  &mt RSHIFT F4  &mt RIGHT_ALT F5  &mt RCTRL F6  &kt AT_SIGN
-&kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &trans                 &kp TILDE        &kp EQUAL                    &trans          &kp F10  &kp F1         &kp F2            &kp F3        &kp SLASH
-&trans            &trans              &trans                &trans                 &trans           &trans                       &trans          &kp DEL                                                 &kp PIPE
+&kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN                                               &kp F12  &kp F7  &kp F8  &kp F9  &kp PIPE
+&kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp F11  &kp F4  &kp F5  &kp F6  &kt AT_SIGN
+&kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &trans                 &kp TILDE        &kp EQUAL                    &trans          &kp F10  &kp F1  &kp F2  &kp F3  &kp SLASH
+&trans            &trans              &trans                &trans                 &trans           &trans                       &trans          &kp DEL                          &kp PIPE
             >;
         };
 
@@ -151,9 +156,9 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &none   &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &none   &none
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
