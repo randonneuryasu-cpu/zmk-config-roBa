@@ -111,9 +111,9 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R          &kp T                                       &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F          &kp G      &kp LS(LG(S))      &out OUT_BLE  &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V          &kp B      &lt 3 ESCAPE       &out OUT_USB  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Q      &kp W         &kp F         &kp P          &kp G                                       &kp J          &kp L  &kp U      &kp Y    &kp SEMICOLON
+&kp A      &kp R         &kp S         &kp T          &kp D      &kp LS(LG(S))      &out OUT_BLE  &kp H          &kp N  &kp E      &kp I    &kp O
+&kp Z      &kp X         &kp C         &kp V          &kp B      &lt 3 ESCAPE       &out OUT_USB  &kp K          &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kt LC(SPACE)  &lt 2 TAB  &lt 1 ENTER        &kp SPACE     &kp BACKSPACE                             &lt 6 ESCAPE
             >;
 
