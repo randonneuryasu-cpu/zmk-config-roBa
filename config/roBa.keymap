@@ -127,10 +127,10 @@
 
         Number {
             bindings = <
-&kp LC(HOME)    &kp HOME   &kp UP_ARROW    &kp END        &kp LC(END)                               &kp MINUS  &kp N7        &kp N8        &kp NUMBER_9  &kp PERCENT
-&kp LC(LEFT)    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp LC(RIGHT)        &trans      &kp F13  &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
-&kp PAGE_UP     &kp LG(V)  &kp LA(LC(V))   &kp LS(LC(V))  &kp PAGE_DOWN        &trans      &trans   &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&kp LEFT_SHIFT  &trans     &trans          &trans         &lt 1 LC(BACKSPACE)  &trans      &trans   &trans                                               &trans
+&kp LC(HOME)    &kp HOME   &kp UP_ARROW    &kp END        &kp LC(END)                                         &kp MINUS      &kp N7        &kp N8        &kp NUMBER_9  &kp PERCENT
+&kp LC(LEFT)    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp LC(RIGHT)        &trans      &kp F13            &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
+&kp PAGE_UP     &kp LG(V)  &kp LA(LC(V))   &kp LS(LC(V))  &kp PAGE_DOWN        &trans      &trans             &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&kp LEFT_SHIFT  &trans     &trans          &trans         &lt 1 LC(BACKSPACE)  &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                                            &trans
             >;
         };
 
