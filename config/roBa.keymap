@@ -4,11 +4,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
-// ☝️このdefineは
-// 👇このincludeよりも先にする
-#include <dt-bindings/zmk/pointing.h>
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -30,17 +25,6 @@
     //     tap-ms = <5>;
     // };
 };
-
-/ {
-    behaviors {
-            encoder_msc_scroll: encoder_msc_scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            tap-ms = <20>;
-        };
-    }
-}
 
 / {
     combos {
