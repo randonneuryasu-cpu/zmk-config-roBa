@@ -32,11 +32,6 @@
     combos {
         compatible = "zmk,combos";
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         single_quotation {
             bindings = <&kp SQT>;
             key-positions = <20 21>;
@@ -90,6 +85,11 @@
         BackSpace {
             bindings = <&kp BACKSPACE>;
             key-positions = <41 40>;
+        };
+
+        Esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
     };
 
