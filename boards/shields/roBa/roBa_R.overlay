@@ -14,27 +14,6 @@
             ;
 };
 
-/* AML: 非マウスキーを押したら解除、キー入力直後は誤爆防止 */
-&zip_temp_layer {
-    excluded-positions = <
-        18  // MB1
-        19  // MB3
-        20  // MB2
-        21  // mo 5 (SCROLLレイヤー)
-        34  // LCTRL
-        35  // LEFT_ALT
-        36  // LEFT_WIN
-        // 37 mt LEFT_SHIFT LANG2 → mt_exit_AML_on_tap でタップ時のみ解除
-        // 38 lt 1 SPACE          → lt_exit_AML_on_tap でタップ時のみ解除
-        // 39 lt 2 LANG1          → lt_exit_AML_on_tap でタップ時のみ解除
-        // 40 BACKSPACE → AML解除
-        // 41 lt 3 ENTER → AML解除
-        // 42 ESC → AML解除
-    >;
-    require-prior-idle-ms = <200>;
-};
-
-
 / {
     trackball_listener {
         status = "okay";
