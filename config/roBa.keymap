@@ -10,6 +10,7 @@
     flavor = "balanced";
     quick-tap-ms = <300>;
 };
+
 &lt {
     flavor = "balanced";
     quick-tap-ms = <300>;
@@ -97,6 +98,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        RtMB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
@@ -127,7 +133,9 @@
 
             tap-ms = <20>;
         };
+
         /* レイヤーをオフにするbehavior */
+
         tog_off: toggle_layer_off {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
@@ -136,10 +144,12 @@
         };
 
         /* タップ時のみAML解除するmt（Shift/Winなどのモディファイア用） */
+
         mt_exit_AML_on_tap: mt_exit_AML_on_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_EXIT_AML_ON_TAP";
             bindings = <&kp>, <&kp_exit_AML>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "balanced";
@@ -147,10 +157,12 @@
         };
 
         /* タップ時のみAML解除するlt（Space/LANG1などのレイヤータップ用） */
+
         lt_exit_AML_on_tap: lt_exit_AML_on_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_EXIT_AML_ON_TAP";
             bindings = <&mo>, <&kp_exit_AML>;
+
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             flavor = "balanced";
@@ -206,7 +218,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &none   &none   &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &none   &none   &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
