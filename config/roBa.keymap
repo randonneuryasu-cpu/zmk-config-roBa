@@ -8,7 +8,16 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <0>;
+    quick-tap-ms = <300>;
+};
+&lt {
+    flavor = "balanced";
+    quick-tap-ms = <300>;
+};
+
+/* クリック後250msでAML解除（マウスキーを押すまでレイヤーに留まる挙動） */
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 4 250>;
 };
 
 &trackball {
@@ -94,6 +103,34 @@
     };
 
     macros {
+        /* タップ時にAMLを解除するマクロ */
+        exit_AML: exit_AML {
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings = <&tog_off MOUSE>;
+            label = "EXIT_AML";
+        };
+
+        kp_exit_AML: kp_exit_AML {
+            compatible = "zmk,behavior-macro-one-param";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <1>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &exit_AML>;
+            label = "KP_EXIT_AML";
+        };
+
+        ss_mac: ss_mac {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LGUI &kp LSHFT>
+                , <&macro_tap &kp N5>
+                , <&macro_release &kp LGUI &kp LSHFT>;
+            label = "SS_MAC";
+        };
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
@@ -120,6 +157,35 @@
             // 追加: スクロールのタップ時間を設定 (20ms)
 
             tap-ms = <20>;
+        };
+        /* レイヤーをオフにするbehavior */
+        tog_off: toggle_layer_off {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <1>;
+            display-name = "Toggle Layer Off";
+            toggle-mode = "off";
+        };
+
+        /* タップ時のみAML解除するmt（Shift/Winなどのモディファイア用） */
+        mt_exit_AML_on_tap: mt_exit_AML_on_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_EXIT_AML_ON_TAP";
+            bindings = <&kp>, <&kp_exit_AML>;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            quick-tap-ms = <300>;
+        };
+
+        /* タップ時のみAML解除するlt（Space/LANG1などのレイヤータップ用） */
+        lt_exit_AML_on_tap: lt_exit_AML_on_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_EXIT_AML_ON_TAP";
+            bindings = <&mo>, <&kp_exit_AML>;
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "balanced";
+            quick-tap-ms = <300>;
         };
     };
 
