@@ -87,11 +87,6 @@
             key-positions = <25 24>;
         };
 
-        BackSpace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <41 40>;
-        };
-
         Esc {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
@@ -99,7 +94,7 @@
 
         RtMB2 {
             bindings = <&mkp MB2>;
-            key-positions = <20 21>;
+            key-positions = <6 7>;
         };
     };
 
