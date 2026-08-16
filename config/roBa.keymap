@@ -96,6 +96,11 @@
             bindings = <&mkp MB2>;
             key-positions = <7 20>;
         };
+
+        MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <7 18>;
+        };
     };
 
     macros {
