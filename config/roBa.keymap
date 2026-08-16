@@ -16,8 +16,6 @@
     quick-tap-ms = <300>;
 };
 
-};
-
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
@@ -132,41 +130,6 @@
             // 追加: スクロールのタップ時間を設定 (20ms)
 
             tap-ms = <20>;
-        };
-
-        /* レイヤーをオフにするbehavior */
-
-        tog_off: toggle_layer_off {
-            compatible = "zmk,behavior-toggle-layer";
-            #binding-cells = <1>;
-            display-name = "Toggle Layer Off";
-            toggle-mode = "off";
-        };
-
-        /* タップ時のみAML解除するmt（Shift/Winなどのモディファイア用） */
-
-        mt_exit_AML_on_tap: mt_exit_AML_on_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MT_EXIT_AML_ON_TAP";
-            bindings = <&kp>, <&kp_exit_AML>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            quick-tap-ms = <300>;
-        };
-
-        /* タップ時のみAML解除するlt（Space/LANG1などのレイヤータップ用） */
-
-        lt_exit_AML_on_tap: lt_exit_AML_on_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LT_EXIT_AML_ON_TAP";
-            bindings = <&mo>, <&kp_exit_AML>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            flavor = "balanced";
-            quick-tap-ms = <300>;
         };
     };
 
