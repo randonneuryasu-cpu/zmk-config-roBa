@@ -92,7 +92,7 @@
             key-positions = <0 1>;
         };
 
-        MB2 {
+        RtMB2 {
             bindings = <&mkp MB2>;
             key-positions = <7 20>;
         };
