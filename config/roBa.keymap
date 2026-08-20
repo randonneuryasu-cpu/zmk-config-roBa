@@ -133,10 +133,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp F          &kp P          &kp B                                               &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON
-&kp A      &kp R         &kp S          &kp T          &kp G           &kp LA(LC(LEFT))      &out OUT_BLE  &kp M      &kp N  &kp E      &kp I    &kp O
-&kp Z      &kp X         &kp C          &kp D          &kp V           &lt 3 ESCAPE          &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LG(SPACE)  &kp LC(SPACE)  &lt 1 KP_ENTER  &lt 2 DEL             &kp TAB       &kp SPACE                             &lt 6 ESCAPE
+&kp Q      &kp W         &kp F          &kp P    &kp B                                               &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON
+&kp A      &kp R         &kp S          &kp T    &kp G           &kp LA(LC(LEFT))      &out OUT_BLE  &kp M      &kp N  &kp E      &kp I    &kp O
+&kp Z      &kp X         &kp C          &kp D    &kp V           &lt 3 ESCAPE          &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LG(SPACE)  &kp DEL  &lt 1 KP_ENTER  &lt 2 LC(SPACE)       &kp TAB       &kp SPACE                             &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -156,7 +156,7 @@
         Function {
             bindings = <
 &kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN                                               &kp F12  &kp F7  &kp F8  &kp F9  &kp PIPE
-&kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp F11  &kp F4  &kp F5  &kp F6  &kt AT_SIGN
+&kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp F11  &kp F4  &kp F5  &kp F6  &kp AT_SIGN
 &kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &trans                 &kp TILDE        &kp EQUAL                    &trans          &kp F10  &kp F1  &kp F2  &kp F3  &kp SLASH
 &trans            &trans              &trans                &trans                 &trans           &trans                       &trans          &trans                           &kp PIPE
             >;
