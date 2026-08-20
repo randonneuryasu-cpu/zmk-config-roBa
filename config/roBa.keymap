@@ -166,10 +166,10 @@
 
         ARROW {
             bindings = <
-&kp LC(LS(F12))  &kp LS(LC(F11))  &trans  &trans  &trans                      &kp UNDERSCORE         &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans
-&trans           &trans           &trans  &trans  &trans  &trans      &trans  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp PERCENT   &kp CARET             &trans
-&trans           &trans           &trans  &trans  &trans  &trans      &trans  &kp PLUS               &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &trans
-&trans           &trans           &trans  &trans  &trans  &trans      &trans  &trans                                                                      &trans
+&kp LC(LS(F12))  &kp LS(LC(F11))  &trans          &trans           &trans                      &kp UNDERSCORE         &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans
+&trans           &trans           &trans          &trans           &trans  &trans      &trans  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp PERCENT   &kp CARET             &trans
+&trans           &trans           &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans      &trans  &kp PLUS               &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &trans
+&trans           &trans           &trans          &trans           &trans  &trans      &trans  &trans                                                                      &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
