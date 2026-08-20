@@ -89,7 +89,7 @@
 
         Esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
         };
 
         RtMB2 {
