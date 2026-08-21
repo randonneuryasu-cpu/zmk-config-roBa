@@ -155,10 +155,10 @@
 
         Function {
             bindings = <
-&kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN                                               &kp F12  &kp F7  &kp F8  &kp F9  &trans
-&kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp F11  &kp F4  &kp F5  &kp F6  &trans
-&kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &trans                 &kp TILDE        &kp EQUAL                    &trans          &kp F10  &kp F1  &kp F2  &kp F3  &trans
-&trans            &trans              &trans                &trans                 &trans           &trans                       &trans          &trans                           &trans
+&kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN                              &kp F12  &kp F7  &kp F8  &kp F9  &trans
+&kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK     &trans      &kp UNDERSCORE  &kp F11  &kp F4  &kp F5  &kp F6  &trans
+&kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &trans                 &kp TILDE        &trans      &trans          &kp F10  &kp F1  &kp F2  &kp F3  &trans
+&trans            &trans              &trans                &trans                 &trans           &trans      &trans          &trans                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
