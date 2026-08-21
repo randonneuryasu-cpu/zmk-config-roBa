@@ -105,6 +105,19 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        Esc_doblle_tap: Esc_doblle_tap {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp ESCAPE>,
+                <&macro_press>,
+                <&macro_release>,
+                <&macro_wait_time 50>,
+                <&kp ESCAPE>;
+
+            label = "ESC_DOBLLE_TAP";
+        };
     };
 
     behaviors {
