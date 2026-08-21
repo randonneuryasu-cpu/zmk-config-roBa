@@ -136,7 +136,7 @@
 &kp Q      &kp W         &kp F          &kp P    &kp B                                               &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON
 &kp A      &kp R         &kp S          &kp T    &kp G           &kp LA(LC(LEFT))      &out OUT_BLE  &kp M      &kp N  &kp E      &kp I    &kp O
 &kp Z      &kp X         &kp C          &kp D    &kp V           &kp ESCAPE            &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LG(SPACE)  &kp DEL  &lt 1 KP_ENTER  &lt 2 LC(SPACE)       &lt 3 TAB     &kp SPACE                             &lt 6 ESCAPE
+&kp LCTRL  &kp LEFT_WIN  &kp LG(SPACE)  &kp DEL  &lt 1 KP_ENTER  &lt 2 LC(SPACE)       &lt 3 TAB     &kp SPACE                             &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -147,7 +147,7 @@
 &kp LC(HOME)    &kp HOME   &kp UP_ARROW    &kp END        &kp LC(END)                                   &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
 &kp LC(LEFT)    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp LC(RIGHT)  &trans      &trans             &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PIPE
 &kp PAGE_UP     &kp LG(V)  &kp LA(LC(V))   &kp LS(LC(V))  &kp PAGE_DOWN  &trans      &trans             &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&kp LEFT_SHIFT  &trans     &trans          &trans         &trans         &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                                            &trans
+&kp LEFT_SHIFT  &trans     &trans          &trans         &trans         &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                                            &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
