@@ -135,8 +135,8 @@
             bindings = <
 &kp Q      &kp W         &kp F          &kp P    &kp B                                               &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON
 &kp A      &kp R         &kp S          &kp T    &kp G           &kp LA(LC(LEFT))      &out OUT_BLE  &kp M      &kp N  &kp E      &kp I    &kp O
-&kp Z      &kp X         &kp C          &kp D    &kp V           &lt 3 ESCAPE          &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LG(SPACE)  &kp DEL  &lt 1 KP_ENTER  &lt 2 LC(SPACE)       &kp TAB       &kp SPACE                             &lt 6 ESCAPE
+&kp Z      &kp X         &kp C          &kp D    &kp V           &kp ESCAPE            &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LG(SPACE)  &kp DEL  &lt 1 KP_ENTER  &lt 2 LC(SPACE)       &lt 3 TAB     &kp SPACE                             &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
