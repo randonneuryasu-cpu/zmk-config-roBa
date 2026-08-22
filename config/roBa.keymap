@@ -144,10 +144,10 @@
 
         Number {
             bindings = <
-&kp LC(LS(F12))   &kp LC(LS(F11))    &kp UP_ARROW      &kp LG(V)     &kp PRINTSCREEN                                 &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-&kp LC(LEFT)      &kp LEFT           &kp DOWN_ARROW    &kp RIGHT     &kp LC(RIGHT)    &trans      &trans             &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
-&kp LC(LG(LEFT))  &kp LG(LC(RIGHT))  &kp LA(UP_ARROW)  &kp LA(DOWN)  &kp LC(LS(V))    &trans      &trans             &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans            &trans             &trans            &trans        &trans           &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                                            &lt 6 ESCAPE
+&kp LC(HOME)      &kp HOME           &kp UP_ARROW      &kp END       &kp LC(END)                                   &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+&kp LC(LEFT)      &kp LEFT           &kp DOWN_ARROW    &kp RIGHT     &kp LC(RIGHT)  &trans      &trans             &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
+&kp LC(LG(LEFT))  &kp LG(LC(RIGHT))  &kp LA(UP_ARROW)  &kp LA(DOWN)  &kp LC(LS(V))  &trans      &trans             &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans            &trans             &trans            &trans        &trans         &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                                            &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -155,10 +155,10 @@
 
         Vim {
             bindings = <
-&kp Q             &kp N0         &kp K                 &kp DOLLAR             &kp B                                             &kp F12        &kp F7  &kp F8  &kp F9  &trans
-&kp LEFT_BRACE    &kp H          &kp J                 &kp L                  &kp RIGHT_BRACE    &trans      &trans             &kp F11        &kp F4  &kp F5  &kp F6  &kp BACKSLASH
-&kp LEFT_BRACKET  &kp LA(SPACE)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans      &trans             &kp F10        &kp F1  &kp F2  &kp F3  &trans
-&trans            &trans         &trans                &trans                 &trans             &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                          &kp CAPS
+&kp LC(LS(F12))  &kp LS(LC(F11))  &trans  &trans  &kp PSCRN                                 &kp F12        &kp F7  &kp F8  &kp F9  &trans
+&trans           &trans           &trans  &trans  &trans     &trans      &trans             &kp F11        &kp F4  &kp F5  &kp F6  &kp BACKSLASH
+&trans           &trans           &trans  &trans  &trans     &trans      &trans             &kp F10        &kp F1  &kp F2  &kp F3  &trans
+&trans           &trans           &trans  &trans  &trans     &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                          &kp CAPS
             >;
 
             sensor-bindings = <&scroll_up_down>;
