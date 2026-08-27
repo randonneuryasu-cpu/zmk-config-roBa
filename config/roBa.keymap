@@ -144,10 +144,10 @@
 
         Number {
             bindings = <
-&kp LC(HOME)      &kp HOME           &kp UP_ARROW      &kp END       &kp LC(END)                                   &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-&kp LC(LEFT)      &kp LEFT           &kp DOWN_ARROW    &kp RIGHT     &kp LC(RIGHT)  &trans      &trans             &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
-&kp LC(LG(LEFT))  &kp LG(LC(RIGHT))  &kp LA(UP_ARROW)  &kp LA(DOWN)  &kp LC(LS(V))  &trans      &trans             &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans            &trans             &trans            &trans        &trans         &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                                            &lt 6 ESCAPE
+&kp LC(HOME)      &kp HOME           &kp UP_ARROW      &kp END       &kp LC(END)                           &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+&kp LC(LEFT)      &kp LEFT           &kp DOWN_ARROW    &kp RIGHT     &kp LC(RIGHT)  &trans      &trans     &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(BACKSPACE)
+&kp LC(LG(LEFT))  &kp LG(LC(RIGHT))  &kp LA(UP_ARROW)  &kp LA(DOWN)  &kp LC(LS(V))  &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans            &trans             &trans            &trans        &trans         &trans      &kp ENTER  &kp BACKSPACE                                            &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -166,9 +166,9 @@
 
         Function {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp LC(LS(RC(F12)))  &kp LC(LS(F11))     &kp PRINTSCREEN                      &trans          &kp NUMBER_0      &kp K                 &kp DOLLAR             &trans
+&kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp LC(LS(RC(F12)))  &kp LC(LS(F11))     &kp PRINTSCREEN                      &kp U           &kp NUMBER_0      &kp K                 &kp DOLLAR             &trans
 &kp LS(LC(TAB))     &kp LC(TAB)    &kp LA(UP_ARROW)     &kp LA(DOWN_ARROW)  &trans           &trans      &trans  &kp LEFT_BRACE  &kp H             &kp J                 &kp L                  &kp RIGHT_BRACE
-&trans              &kp LA(SPACE)  &kp LA(LC(C))        &kp LS(LC(C))       &trans           &trans      &trans  &trans          &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&trans              &kp LA(SPACE)  &kp LA(LC(C))        &kp LS(LC(C))       &trans           &trans      &trans  &kp D           &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
 &trans              &trans         &trans               &trans              &trans           &trans      &trans  &trans                                                                         &kp CLCK
             >;
 
