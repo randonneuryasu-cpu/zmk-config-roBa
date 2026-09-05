@@ -155,10 +155,10 @@
 
         Vim {
             bindings = <
-&kp LC(LS(F12))  &kp LS(LC(F11))  &trans     &trans  &kp PSCRN                                 &kp F12        &kp F7  &kp F8  &kp F9  &kp TILDE
-&kp LC(A)        &trans           &trans     &trans  &trans     &trans      &trans             &kp F11        &kp F4  &kp F5  &kp F6  &kp BACKSLASH
-&trans           &trans           &kp LC(C)  &trans  &kp LC(V)  &trans      &trans             &kp F10        &kp F1  &kp F2  &kp F3  &kp GRAVE
-&trans           &trans           &trans     &trans  &trans     &trans      &kp LC(BACKSPACE)  &kp BACKSPACE                          &kp CAPS
+&kp LC(LS(F12))  &kp LS(LC(F11))  &trans     &trans  &kp PSCRN                                        &kp F12        &kp F7  &kp F8  &kp F9  &kp TILDE
+&kp LC(A)        &trans           &trans     &trans  &trans     &trans             &trans             &kp F11        &kp F4  &kp F5  &kp F6  &kp BACKSLASH
+&trans           &trans           &kp LC(C)  &trans  &kp LC(V)  &kp LC(ENTER)      &trans             &kp F10        &kp F1  &kp F2  &kp F3  &kp GRAVE
+&trans           &trans           &trans     &trans  &trans     &trans             &kp LC(BACKSPACE)  &kp BACKSPACE                          &kp CAPS
             >;
 
             sensor-bindings = <&scroll_up_down>;
