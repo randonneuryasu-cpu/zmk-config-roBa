@@ -144,10 +144,10 @@
 
         Number {
             bindings = <
-&kp HOME          &kp LA(LC(UP_ARROW))  &kp UP_ARROW    &kp LA(DOWN_ARROW)  &kp END                               &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE
-&kp LC(LEFT)      &kp LEFT              &kp DOWN_ARROW  &kp RIGHT           &kp LC(RIGHT)  &trans      &trans     &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSLASH
-&kp LC(LG(LEFT))  &kp LG(LC(RIGHT))     &kp LA(LC(C))   &kp LA(DOWN)        &kp LC(LS(V))  &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans            &trans                &trans          &trans              &trans         &trans      &kp ENTER  &kp BACKSPACE                                            &lt 6 ESCAPE
+&kp LA(UP_ARROW)  &kp HOME           &kp UP_ARROW    &kp END       &kp LA(DOWN_ARROW)                         &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE
+&kp LC(LEFT)      &kp LEFT           &kp DOWN_ARROW  &kp RIGHT     &kp LC(RIGHT)       &trans      &trans     &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSLASH
+&kp LC(LG(LEFT))  &kp LG(LC(RIGHT))  &kp LA(LC(C))   &kp LA(DOWN)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans            &trans             &trans          &trans        &trans              &trans      &kp ENTER  &kp BACKSPACE                                            &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -158,7 +158,7 @@
 &kp LC(LS(F12))  &kp LS(LC(F11))  &kp LA(UP_ARROW)    &kp LC(P)      &kp PSCRN                                      &kp F12        &kp F7  &kp F8  &kp F9  &kp TILDE
 &kp LC(A)        &kp LA(LEFT)     &kp LA(DOWN_ARROW)  &kp LA(RIGHT)  &kp LA(TAB)  &trans         &trans             &kp F11        &kp F4  &kp F5  &kp F6  &kp BACKSLASH
 &kp LC(Z)        &kp LC(X)        &kp LC(C)           &kp LC(D)      &kp LC(V)    &kp ENTER      &trans             &kp F10        &kp F1  &kp F2  &kp F3  &kp GRAVE
-&trans           &trans           &trans              &kp BACKSPACE  &trans       &trans         &kp LC(BACKSPACE)  &kp BACKSPACE                          &kp CAPS
+&trans           &trans           &kp LS(LC(C))       &kp BACKSPACE  &trans       &trans         &kp LC(BACKSPACE)  &kp BACKSPACE                          &kp CAPS
             >;
 
             sensor-bindings = <&scroll_up_down>;
