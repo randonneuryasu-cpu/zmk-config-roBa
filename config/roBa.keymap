@@ -158,7 +158,7 @@
 &kp LC(Q)        &kp LC(W)  &kp LC(F)      &kp LC(P)      &kp LC(B)                         &kp BACKSLASH          &kp F7  &kp F8  &kp F9  &kp GRAVE
 &kp LC(A)        &kp LC(R)  &kp LC(S)      &kp LC(T)      &kp LC(G)  &trans         &trans  &kp LEFT_PARENTHESIS   &kp F4  &kp F5  &kp F6  &kp LEFT_BRACKET
 &kp LC(Z)        &kp LC(X)  &kp LC(C)      &kp LC(D)      &kp LC(V)  &kp ENTER      &trans  &kp RIGHT_PARENTHESIS  &kp F1  &kp F2  &kp F3  &kp RIGHT_BRACKET
-&kp PRINTSCREEN  &kp CLCK   &kp LS(LC(C))  &kp BACKSPACE  &trans     &trans         &trans  &kp RC(BACKSPACE)                              &lt 6 ESCAPE
+&kp PRINTSCREEN  &kp CLCK   &kp LS(LC(C))  &kp BACKSPACE  &trans     &trans         &trans  &trans                                         &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -166,10 +166,10 @@
 
         Function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp RS(J)        &kp RS(L)  &kp U   &kp T               &kp X
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(RC(TAB))  &kp R      &kp D   &kp F               &kp O
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(K)        &kp RS(H)  &trans  &kp RG(LEFT_ARROW)  &kp RG(RIGHT)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &trans
+&trans  &trans  &trans  &trans  &trans                      &kp RS(J)          &kp RS(L)  &kp U   &kp T               &kp X
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(RC(TAB))    &kp R      &kp D   &kp F               &kp O
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(K)          &kp RS(H)  &trans  &kp RG(LEFT_ARROW)  &kp RG(RIGHT)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(BACKSPACE)                                         &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
