@@ -138,8 +138,6 @@
 &kp Z      &kp X         &kp C          &kp D    &kp V             &kp ESCAPE           &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LG(SPACE)  &kp DEL  &lt 1 DOWN_ARROW  &lt 2 LC(SPACE)      &lt 3 TAB     &kp SPACE                             &kp ENTER
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         Number {
