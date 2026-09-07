@@ -167,7 +167,7 @@
         Function {
             bindings = <
 &kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp LC(LS(RC(F12)))  &kp LC(LS(F11))     &kp PRINTSCREEN                      &kp BACKSLASH   &kp NUMBER_0      &kp K                 &kp DOLLAR             &kp GRAVE
-&kp LS(LC(TAB))     &kp LC(TAB)    &kp LA(LC(C))        &kp LA(DOWN_ARROW)  &trans           &trans      &trans  &kp LEFT_BRACE  &kp H             &kp J                 &kp L                  &kp RIGHT_BRACE
+&kp LS(LC(TAB))     &kp LC(TAB)    &kp LA(UP_ARROW)     &kp LA(DOWN_ARROW)  &trans           &trans      &trans  &kp LEFT_BRACE  &kp H             &kp J                 &kp L                  &kp RIGHT_BRACE
 &kp LA(SPACE)       &kp LA(LC(C))  &kp LC(LS(C))        &kp LG(UP_ARROW)    &kp LC(LS(V))    &trans      &trans  &kp D           &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
 &trans              &trans         &trans               &trans              &trans           &trans      &trans  &trans                                                                         &trans
             >;
