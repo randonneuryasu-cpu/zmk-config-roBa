@@ -147,7 +147,7 @@
 &kp LC(HOME)      &kp HOME       &kp UP_ARROW    &kp END           &kp LC(END)                           &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F2
 &kp LC(LEFT)      &kp LEFT       &kp DOWN_ARROW  &kp RIGHT         &kp LC(RIGHT)  &trans      &trans     &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F12
 &kp LA(LC(LEFT))  &kp LA(RIGHT)  &kp LA(LC(C))   &kp LG(UP_ARROW)  &kp LC(LS(V))  &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F11
-&trans            &trans         &trans          &trans            &trans         &trans      &kp ENTER  &kp BACKSPACE                                            &lt 6 F9
+&trans            &trans         &trans          &trans            &trans         &trans      &kp ENTER  &kp BACKSPACE                                            &kp F9
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -158,7 +158,7 @@
 &kp LC(Q)  &kp LC(W)  &kp LC(F)      &kp LC(P)      &kp LC(B)                                    &kp BACKSLASH          &kp F7  &kp F8  &kp F9  &kp GRAVE
 &kp LC(A)  &kp LC(R)  &kp LC(S)      &kp LC(T)      &kp LC(G)  &trans         &trans             &kp LEFT_PARENTHESIS   &kp F4  &kp F5  &kp F6  &kp LEFT_BRACKET
 &kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(D)      &kp LC(V)  &kp ENTER      &trans             &kp RIGHT_PARENTHESIS  &kp F1  &kp F2  &kp F3  &kp RIGHT_BRACKET
-&trans     &trans     &kp LS(LC(C))  &kp BACKSPACE  &trans     &trans         &kp LC(BACKSPACE)  &kp BACKSPACE                                  &trans
+&trans     &trans     &kp LS(LC(C))  &kp BACKSPACE  &trans     &trans         &kp LC(BACKSPACE)  &kp BACKSPACE                                  &lt_to_layer_0 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
