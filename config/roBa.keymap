@@ -166,8 +166,8 @@
 
         Function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp RS(J)        &kp RS(L)  &kp U   &kp F               &kp X
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(RC(TAB))  &kp R      &kp D   &kp T               &kp O
+&trans  &trans  &trans  &trans  &trans                      &kp RS(J)        &kp RS(L)  &kp U   &kp T               &kp X
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(RC(TAB))  &kp R      &kp D   &kp F               &kp O
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(K)        &kp RS(H)  &trans  &kp RG(LEFT_ARROW)  &kp RG(RIGHT)
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &trans
             >;
