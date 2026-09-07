@@ -146,8 +146,8 @@
             bindings = <
 &kp LC(HOME)  &kp HOME       &kp UP_ARROW    &kp END       &kp LC(END)                           &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F2
 &kp LC(LEFT)  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT     &kp LC(RIGHT)  &trans      &trans     &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F12
-&kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(LC(C))   &kp LA(DOWN)  &kp LC(LS(V))  &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans        &trans         &trans          &trans        &trans         &trans      &kp ENTER  &kp BACKSPACE                                            &lt 6 ESCAPE
+&kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(LC(C))   &kp LA(DOWN)  &kp LC(LS(V))  &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F11
+&trans        &trans         &trans          &trans        &trans         &trans      &kp ENTER  &kp BACKSPACE                                            &lt 6 F9
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -155,10 +155,10 @@
 
         Vim {
             bindings = <
-&kp LC(Q)  &kp LC(F11)  &kp LC(F)      &kp LC(P)      &kp LC(B)                                    &kp F12        &kp F7  &kp F8  &kp F9  &kp TILDE
-&kp LC(A)  &kp LC(R)    &kp LC(S)      &kp LC(T)      &kp LC(G)  &trans         &trans             &kp F11        &kp F4  &kp F5  &kp F6  &kp BACKSLASH
-&kp LC(Z)  &kp LC(X)    &kp LC(C)      &kp LC(D)      &kp LC(V)  &kp ENTER      &trans             &kp F10        &kp F1  &kp F2  &kp F3  &kp GRAVE
-&trans     &trans       &kp LS(LC(C))  &kp BACKSPACE  &trans     &trans         &kp LC(BACKSPACE)  &kp BACKSPACE                          &kp CAPS
+&kp LC(Q)  &kp LC(W)  &kp LC(F)      &kp LC(P)      &kp LC(B)                                    &kp BACKSLASH          &kp F7  &kp F8  &kp F9  &kp GRAVE
+&kp LC(A)  &kp LC(R)  &kp LC(S)      &kp LC(T)      &kp LC(G)  &trans         &trans             &kp LEFT_PARENTHESIS   &kp F4  &kp F5  &kp F6  &kp LEFT_BRACKET
+&kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(D)      &kp LC(V)  &kp ENTER      &trans             &kp RIGHT_PARENTHESIS  &kp F1  &kp F2  &kp F3  &kp RIGHT_BRACKET
+&trans     &trans     &kp LS(LC(C))  &kp BACKSPACE  &trans     &trans         &kp LC(BACKSPACE)  &kp BACKSPACE                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -166,10 +166,10 @@
 
         Function {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp LC(LS(RC(F12)))  &kp LC(LS(F11))     &kp PRINTSCREEN                      &kp BACKSLASH   &kp NUMBER_0      &kp K                 &kp DOLLAR             &kp GRAVE
-&kp LS(LC(TAB))     &kp LC(TAB)    &kp LA(UP_ARROW)     &kp LA(DOWN_ARROW)  &trans           &trans      &trans  &kp LEFT_BRACE  &kp H             &kp J                 &kp L                  &kp RIGHT_BRACE
-&kp LA(SPACE)       &kp LA(LC(C))  &kp LC(LS(C))        &kp LG(UP_ARROW)    &kp LC(LS(V))    &trans      &trans  &kp D           &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
-&trans              &trans         &trans               &trans              &trans           &trans      &trans  &trans                                                                         &trans
+&trans  &trans  &trans  &trans  &trans                      &kp RG(LEFT)     &kp RG(RIGHT)     &kp RS(RC(F12))     &kp RS(RC(F11))     &kp PRINTSCREEN
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(RC(TAB))  &kp RS(TAB)       &kp RA(UP_ARROW)    &kp RA(DOWN_ARROW)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RA(SPACE)    &kp RG(UP_ARROW)  &kp RG(DOWN_ARROW)  &kp RG(LEFT_ARROW)  &kp RG(RIGHT)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                     &kp CLCK
             >;
 
             sensor-bindings = <&scroll_up_down>;
