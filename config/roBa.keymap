@@ -166,9 +166,9 @@
 
         Function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp RS(J)  &kp RS(L)  &kp RS(U)  &kp RS(Y)           &kp RS(SEMICOLON)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(M)  &kp RS(N)  &kp RS(E)  &kp RS(I)           &kp RS(O)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(K)  &kp RS(H)  &trans     &kp RG(LEFT_ARROW)  &kp RG(RIGHT)
+&trans  &trans  &trans  &trans  &trans                      &kp RS(J)  &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(M)  &kp RC(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(K)  &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                               &trans
             >;
 
@@ -199,6 +199,15 @@
 &trans  &trans        &trans        &trans        &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &bt BT_SEL 0      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans            &trans       &trans                                                  &trans
+            >;
+        };
+
+        Atok {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
