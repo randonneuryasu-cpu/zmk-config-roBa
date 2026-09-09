@@ -133,10 +133,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp F          &kp P      &kp B                                                   &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON
-&kp A             &kp R         &kp S          &kp T      &kp G             &none                   &out OUT_BLE  &kp M      &kp N  &kp E      &kp I    &kp O
-&kp Z             &kp X         &kp C          &kp D      &kp V             &kp LC(SPACE)           &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LG(SPACE)  &kp ENTER  &lt 1 DOWN_ARROW  &lt 2 SINGLE_QUOTE      &lt 3 TAB     &kp SPACE                             &kp ESCAPE
+&kp Q           &kp W         &kp F          &kp P      &kp B                                                   &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON
+&kp A           &kp R         &kp S          &kp T      &kp G             &none                   &out OUT_BLE  &kp M      &kp N  &kp E      &kp I    &kp O
+&kp Z           &kp X         &kp C          &kp D      &kp V             &kp LC(SPACE)           &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LG(SPACE)  &kp ENTER  &lt 1 DOWN_ARROW  &lt 2 SINGLE_QUOTE      &lt 3 TAB     &kp SPACE                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -169,7 +169,7 @@
 &trans  &trans  &trans  &trans  &trans                      &kp RS(J)   &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(M)   &kp RC(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(K)   &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp DELETE                                            &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp DELETE                                            &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
