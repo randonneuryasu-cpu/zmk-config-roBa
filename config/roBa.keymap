@@ -166,10 +166,10 @@
 
         Function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp RS(J)   &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(M)   &kp RC(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RS(K)   &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp DELETE                                            &kp ESCAPE
+&trans  &trans  &trans  &trans   &trans                      &kp RS(J)   &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
+&trans  &trans  &trans  &trans   &trans  &trans      &trans  &kp RC(M)   &kp RC(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
+&trans  &trans  &trans  &trans   &trans  &trans      &trans  &kp RS(K)   &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
+&trans  &trans  &trans  &kp SQT  &trans  &trans      &trans  &kp DELETE                                            &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
