@@ -39,7 +39,7 @@
 
         single_quotation {
             bindings = <&kp SQT>;
-            key-positions = <21 14>;
+            key-positions = <21 13>;
         };
 
         scroll {
