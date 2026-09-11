@@ -145,10 +145,10 @@
 
         Vim {
             bindings = <
-&kp LC(Q)        &kp LC(W)  &kp LC(F)      &kp LC(P)  &kp LC(B)                         &kp F12            &kp F7  &kp F8  &kp F9  &kp COLON
-&kp LC(A)        &kp LC(R)  &kp LC(S)      &kp LC(T)  &kp LC(G)  &trans         &trans  &kp F11            &kp F4  &kp F5  &kp F6  &kp DOUBLE_QUOTES
-&kp LC(Z)        &kp LC(X)  &kp LC(C)      &kp LC(D)  &kp LC(V)  &kp ENTER      &trans  &kp F10            &kp F1  &kp F2  &kp F3  &kp QUESTION
-&kp PRINTSCREEN  &kp CLCK   &kp LS(LC(C))  &trans     &trans     &trans         &trans  &kp RC(BACKSPACE)                          &lt 6 ESCAPE
+&kp LC(Q)        &kp LC(W)  &kp LC(F)      &kp LC(P)       &kp LC(B)                         &kp F12            &kp F7  &kp F8  &kp F9  &kp COLON
+&kp LC(A)        &kp LC(R)  &kp LC(S)      &kp LEFT_SHIFT  &kp LC(G)  &trans         &trans  &kp F11            &kp F4  &kp F5  &kp F6  &kp DOUBLE_QUOTES
+&kp LC(Z)        &kp LC(X)  &kp LC(C)      &kp LC(D)       &kp LC(V)  &kp ENTER      &trans  &kp F10            &kp F1  &kp F2  &kp F3  &kp QUESTION
+&kp PRINTSCREEN  &kp CLCK   &kp LS(LC(C))  &trans          &trans     &trans         &trans  &kp RC(BACKSPACE)                          &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -156,10 +156,10 @@
 
         Function {
             bindings = <
-&trans           &trans           &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp PRINTSCREEN                      &kp RS(J)  &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
-&trans           &trans           &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH    &trans      &trans  &kp RS(M)  &kp RS(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
-&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LA(DOWN_ARROW)     &kp LA(UP_ARROW)   &kp GRAVE        &trans      &trans  &kp RS(K)  &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
-&trans           &trans           &trans                 &trans             &trans           &trans      &trans  &trans                                               &kp ESCAPE
+&trans           &trans           &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp PRINTSCREEN                      &kp RS(J)  &kp RS(L)        &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
+&trans           &trans           &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH    &trans      &trans  &kp RS(M)  &kp RIGHT_SHIFT  &kp RS(E)      &kp RS(I)       &kp RS(O)
+&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LA(DOWN_ARROW)     &kp LA(UP_ARROW)   &kp GRAVE        &trans      &trans  &kp RS(K)  &kp RS(H)        &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
+&trans           &trans           &trans                 &trans             &trans           &trans      &trans  &trans                                                     &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
