@@ -37,11 +37,6 @@
     combos {
         compatible = "zmk,combos";
 
-        single_quotation {
-            bindings = <&kp SQT>;
-            key-positions = <21 13>;
-        };
-
         scroll {
             bindings = <&mo 5>;
             key-positions = <20 19>;
@@ -54,17 +49,17 @@
 
         RtWin {
             bindings = <&kp RIGHT_WIN>;
-            key-positions = <33 32>;
+            key-positions = <20 19>;
         };
 
         RtAlt {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <32 31>;
+            key-positions = <17 18>;
         };
 
         RtCtl {
             bindings = <&kp RIGHT_CONTROL>;
-            key-positions = <30 31>;
+            key-positions = <20 21>;
         };
 
         LtShift {
@@ -74,22 +69,17 @@
 
         LtWin {
             bindings = <&kp LWIN>;
-            key-positions = <22 23>;
+            key-positions = <11 12>;
         };
 
         LtAlt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <23 24>;
+            key-positions = <14 13>;
         };
 
         LtCtl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <25 24>;
-        };
-
-        Esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <18 10>;
+            key-positions = <10 11>;
         };
 
         RtMB2 {
@@ -166,10 +156,10 @@
 
         Function {
             bindings = <
-&trans           &trans           &trans              &trans            &trans                       &kp RS(J)   &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
-&trans           &trans           &trans              &trans            &trans  &trans       &trans  &kp RS(M)   &kp RS(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
-&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &trans  &trans       &trans  &kp RS(K)   &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
-&trans           &trans           &trans              &trans            &trans  &kp SQT      &trans  &kp DELETE                                            &kp ESCAPE
+&trans           &trans           &trans              &trans            &trans                      &kp RS(J)  &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
+&trans           &trans           &trans              &trans            &trans  &trans      &trans  &kp RS(M)  &kp RS(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
+&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &trans  &trans      &trans  &kp RS(K)  &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
+&trans           &trans           &trans              &trans            &trans  &trans      &trans  &trans                                               &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
