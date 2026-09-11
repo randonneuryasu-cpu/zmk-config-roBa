@@ -134,9 +134,9 @@
 
         Number {
             bindings = <
-&kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+&kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON
 &kp LC(LEFT)      &kp LEFT  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans     &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
-&kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION
 &trans            &trans    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp BACKSPACE                                            &trans
             >;
 
@@ -145,8 +145,8 @@
 
         Vim {
             bindings = <
-&kp LC(Q)        &kp LC(W)  &kp LC(F)      &kp LC(P)  &kp LC(B)                         &kp BACKSLASH          &kp F7  &kp F8  &kp F9  &kp GRAVE
-&kp LC(A)        &kp LC(R)  &kp LC(S)      &kp LC(T)  &kp LC(G)  &trans         &trans  &kp LEFT_PARENTHESIS   &kp F4  &kp F5  &kp F6  &kp LEFT_BRACKET
+&kp LC(Q)        &kp LC(W)  &kp LC(F)      &kp LC(P)  &kp LC(B)                         &kp LEFT_PARENTHESIS   &kp F7  &kp F8  &kp F9  &kp LEFT_BRACKET
+&kp LC(A)        &kp LC(R)  &kp LC(S)      &kp LC(T)  &kp LC(G)  &trans         &trans  &kp F10                &kp F4  &kp F5  &kp F6  &kp SQT
 &kp LC(Z)        &kp LC(X)  &kp LC(C)      &kp LC(D)  &kp LC(V)  &kp ENTER      &trans  &kp RIGHT_PARENTHESIS  &kp F1  &kp F2  &kp F3  &kp RIGHT_BRACKET
 &kp PRINTSCREEN  &kp CLCK   &kp LS(LC(C))  &trans     &trans     &trans         &trans  &kp RC(BACKSPACE)                              &lt 6 ESCAPE
             >;
@@ -156,10 +156,10 @@
 
         Function {
             bindings = <
-&trans           &trans           &trans              &trans            &trans                      &kp RS(J)  &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
-&trans           &trans           &trans              &trans            &trans  &trans      &trans  &kp RS(M)  &kp RS(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
-&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &trans  &trans      &trans  &kp RS(K)  &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
-&trans           &trans           &trans              &trans            &trans  &trans      &trans  &trans                                               &kp ESCAPE
+&trans           &trans           &trans              &trans            &kp PRINTSCREEN                      &kp RS(J)  &kp RS(L)  &kp RS(U)      &kp RS(Y)       &kp RS(SEMICOLON)
+&trans           &trans           &trans              &trans            &kp BACKSLASH    &trans      &trans  &kp RS(M)  &kp RS(N)  &kp RS(E)      &kp RS(I)       &kp RS(O)
+&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &kp GRAVE        &trans      &trans  &kp RS(K)  &kp RS(H)  &kp RS(COMMA)  &kp RS(PERIOD)  &kp RS(SLASH)
+&trans           &trans           &trans              &trans            &trans           &trans      &trans  &trans                                               &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
