@@ -137,7 +137,7 @@
 &kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp RS(J)      &kp RS(L)  &kp RS(U)  &kp RS(Y)  &kp COLON
 &kp LC(LEFT)      &kp LEFT  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans     &kp RS(M)      &kp RS(N)  &kp RS(E)  &kp RS(I)  &kp RS(O)
 &kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp RS(K)      &kp RS(H)  &kp SQT    &kp MINUS  &kp QUESTION
-&trans            &trans    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp BACKSPACE                                   &trans
+&trans            &trans    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp BACKSPACE                                   &kp EXCLAMATION
             >;
 
             sensor-bindings = <&scroll_up_down>;
