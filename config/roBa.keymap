@@ -156,9 +156,9 @@
 
         Function {
             bindings = <
-&kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                      &trans  &trans           &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &trans
-&kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)  &trans      &trans  &trans  &trans           &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans
-&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)  &trans      &trans  &trans  &kp RS(RC(F12))  &kp RS(RC(F11))        &trans             &kp GRAVE
+&kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                      &trans  &kp RS(RC(F12))  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &trans
+&kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)  &trans      &trans  &trans  &kp RS(RC(F11))  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans
+&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)  &trans      &trans  &trans  &trans           &kp RS(RC(SQT))        &trans             &kp GRAVE
 &trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                                             &kp ESCAPE
             >;
 
