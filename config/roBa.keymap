@@ -134,10 +134,10 @@
 
         Number {
             bindings = <
-&kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp MINUS  &kp N7        &kp N8        &kp N9        &kp PRINTSCREEN
-&kp LC(LEFT)      &kp LEFT  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans     &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
-&kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&kp F2            &kp F9    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &trans                                               &kp ESCAPE
+&kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp MINUS      &kp N7        &kp N8        &kp N9        &kp PRINTSCREEN
+&kp LC(LEFT)      &kp LEFT  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans     &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
+&kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&kp F2            &kp F9    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp BACKSPACE                                            &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
