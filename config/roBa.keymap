@@ -125,8 +125,8 @@
             bindings = <
 &kp Q           &kp W    &kp F          &kp P          &kp B                                         &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
 &kp A           &kp R    &kp S          &kp T          &kp G        &none              &out OUT_BLE  &kp M        &kp N  &kp E      &kp I    &kp O
-&kp Z           &kp X    &kp C          &kp D          &kp V        &kp BACKSPACE      &out OUT_USB  &kp K        &kp H  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp SQT  &kp LG(SPACE)  &kp LG(SPACE)  &lt 1 LSHFT  &lt 2 ENTER        &kp TAB       &lt 3 SPACE                             &kp RIGHT_SHIFT
+&kp Z           &kp X    &kp C          &kp D          &kp V        &kp BACKSPACE      &out OUT_USB  &kp K        &kp H  &kp COMMA  &kp DOT  &kp QUESTION
+&kp LEFT_SHIFT  &kp SQT  &kp LG(SPACE)  &kp LG(SPACE)  &lt 1 LSHFT  &lt 2 ENTER        &kp TAB       &lt 3 SPACE                             &kp EXCLAMATION
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -136,8 +136,8 @@
             bindings = <
 &kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp MINUS  &kp N7        &kp N8        &kp N9        &kp COLON
 &kp LC(LEFT)      &kp LEFT  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans     &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
-&kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION
-&kp F2            &kp F9    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &trans                                               &kp EXCLAMATION
+&kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&kp F2            &kp F9    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &trans                                               &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
