@@ -123,10 +123,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W    &kp F          &kp P          &kp B                                            &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
-&kp A           &kp R    &kp S          &kp T          &kp G           &none              &out OUT_BLE  &kp M        &kp N  &kp E      &kp I    &kp O
-&kp Z           &kp X    &kp C          &kp D          &kp V           &kp BACKSPACE      &out OUT_USB  &kp K        &kp H  &kp COMMA  &kp DOT  &kp QUESTION
-&kp LEFT_SHIFT  &kp SQT  &kp LG(SPACE)  &kp LG(SPACE)  &kp LEFT_SHIFT  &lt 2 ENTER        &lt 1 TAB     &lt 3 SPACE                             &kp EXCLAMATION
+&kp Q           &kp W    &kp F          &kp P          &kp B                                              &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON
+&kp A           &kp R    &kp S          &kp T          &kp G             &none              &out OUT_BLE  &kp M      &kp N  &kp E      &kp I    &kp O
+&kp Z           &kp X    &kp C          &kp D          &kp V             &kp BACKSPACE      &out OUT_USB  &kp K      &kp H  &kp COMMA  &kp DOT  &kp QUESTION
+&kp LEFT_SHIFT  &kp SQT  &kp LG(SPACE)  &kp LG(SPACE)  &lt 1 DOWN_ARROW  &lt 2 ENTER        &lt 3 TAB     &kp SPACE                             &kp EXCLAMATION
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -145,10 +145,10 @@
 
         Vim {
             bindings = <
-&kp F7  &kp F8    &kp F9  &kp UP_ARROW    &trans                      &kp F12  &kp F7  &kp F8  &kp F9  &kp ESCAPE
-&kp F4  &kp F5    &kp F6  &kp RIGHT       &trans  &trans      &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp DOUBLE_QUOTES
-&kp F1  &kp F2    &kp F3  &kp DOWN_ARROW  &trans  &trans      &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PRINTSCREEN
-&trans  &kp CLCK  &trans  &trans          &trans  &trans      &trans  &trans                           &lt 6 ESCAPE
+&kp F7  &kp F8    &kp F9  &kp UP_ARROW    &trans                      &kp RS(J)  &kp RS(L)  &kp RS(U)  &kp RS(Y)  &kp PRINTSCREEN
+&kp F4  &kp F5    &kp F6  &kp RIGHT       &trans  &trans      &trans  &kp RS(M)  &kp RS(N)  &kp RS(E)  &kp RS(I)  &kp RS(O)
+&kp F1  &kp F2    &kp F3  &kp DOWN_ARROW  &trans  &trans      &trans  &kp RS(A)  &kp RS(H)  &kp SQT    &kp MINUS  &kp QUESTION
+&trans  &kp CLCK  &trans  &trans          &trans  &trans      &trans  &trans                                      &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
