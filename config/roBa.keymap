@@ -123,10 +123,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W    &kp F          &kp P          &kp B                                                  &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
-&kp A           &kp R    &kp S          &kp T          &kp G             &none                  &out OUT_BLE  &kp M        &kp N  &kp E      &kp I    &kp O
-&kp Z           &kp X    &kp C          &kp D          &kp V             &kp RC(BACKSPACE)      &out OUT_USB  &kp K        &kp H  &kp COMMA  &kp DOT  &kp QUESTION
-&kp LEFT_SHIFT  &kp SQT  &kp LG(SPACE)  &kp LG(SPACE)  &lt 2 DOWN_ARROW  &lt 1 ENTER            &kp TAB       &lt 3 SPACE                             &kp EXCLAMATION
+&kp Q           &kp W    &kp F          &kp P          &kp B                                              &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
+&kp A           &kp R    &kp S          &kp T          &kp G             &none              &out OUT_BLE  &kp M        &kp N  &kp E      &kp I    &kp O
+&kp Z           &kp X    &kp C          &kp D          &kp V             &kp RC(SPACE)      &out OUT_USB  &kp K        &kp H  &kp COMMA  &kp DOT  &kp QUESTION
+&kp LEFT_SHIFT  &kp SQT  &kp LG(SPACE)  &kp LG(SPACE)  &lt 2 DOWN_ARROW  &lt 1 ENTER        &kp TAB       &lt 3 SPACE                             &kp EXCLAMATION
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -156,10 +156,10 @@
 
         Function {
             bindings = <
-&kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                              &trans  &kp RS(RC(F12))  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp PRINTSCREEN
-&kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)      &trans          &trans  &trans  &kp RS(RC(F11))  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp ESCAPE
-&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)      &kp DELETE      &trans  &trans  &trans           &kp DOUBLE_QUOTES      &kp GRAVE          &kp DELETE
-&trans     &trans     &trans     &trans     &kp LC(SPACE)  &trans          &trans  &trans                                                             &trans
+&kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                      &trans  &kp RS(RC(F12))  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp PRINTSCREEN
+&kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)  &trans      &trans  &trans  &kp RS(RC(F11))  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp ESCAPE
+&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)  &trans      &trans  &trans  &trans           &kp DOUBLE_QUOTES      &kp GRAVE          &kp DELETE
+&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                                             &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
