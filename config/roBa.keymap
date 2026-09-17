@@ -145,7 +145,7 @@
 
         Vim {
             bindings = <
-&kp F7  &kp F8    &kp F9  &kp UP_ARROW    &trans                         &kp RS(J)      &kp RS(L)  &kp RS(U)  &kp RS(Y)  &kp COLON
+&kp F7  &kp F8    &kp F9  &kp UP_ARROW    &trans                         &kp RS(J)      &kp RS(L)  &kp RS(U)  &kp RS(Y)  &kp SQT
 &kp F4  &kp F5    &kp F6  &kp RIGHT       &trans  &trans      &trans     &kp RS(M)      &kp RS(N)  &kp RS(E)  &kp RS(I)  &kp RS(O)
 &kp F1  &kp F2    &kp F3  &kp DOWN_ARROW  &trans  &trans      &trans     &kp RS(K)      &kp RS(H)  &kp SQT    &kp MINUS  &kp QUESTION
 &trans  &kp CLCK  &trans  &trans          &trans  &trans      &kp ENTER  &kp BACKSPACE                                   &lt 6 EXCLAMATION
@@ -156,10 +156,10 @@
 
         Function {
             bindings = <
-&kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                              &trans  &kp RS(RC(F12))  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &trans
-&kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)      &trans          &trans  &trans  &kp RS(RC(F11))  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans
+&kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                              &trans  &kp RS(RC(F12))  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp PRINTSCREEN
+&kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)      &trans          &trans  &trans  &kp RS(RC(F11))  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp ESCAPE
 &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)      &kp DELETE      &trans  &trans  &trans           &kp DOUBLE_QUOTES      &trans             &kp GRAVE
-&trans     &trans     &trans     &trans     &kp LC(SPACE)  &trans          &trans  &trans                                                             &kp ESCAPE
+&trans     &trans     &trans     &trans     &kp LC(SPACE)  &trans          &trans  &trans                                                             &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
