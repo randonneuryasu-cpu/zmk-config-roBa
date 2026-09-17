@@ -158,7 +158,7 @@
             bindings = <
 &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                              &trans  &kp RS(RC(F12))  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp PRINTSCREEN
 &kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)      &trans          &trans  &trans  &kp RS(RC(F11))  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp ESCAPE
-&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)      &kp DELETE      &trans  &trans  &trans           &kp DOUBLE_QUOTES      &trans             &kp GRAVE
+&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(D)  &kp LS(V)      &kp DELETE      &trans  &trans  &trans           &kp DOUBLE_QUOTES      &kp GRAVE          &kp DELETE
 &trans     &trans     &trans     &trans     &kp LC(SPACE)  &trans          &trans  &trans                                                             &trans
             >;
 
