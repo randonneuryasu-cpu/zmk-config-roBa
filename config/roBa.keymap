@@ -134,10 +134,10 @@
 
         Number {
             bindings = <
-&kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp MINUS          &kp N7        &kp N8        &kp N9        &kp PRINTSCREEN
-&kp LC(LEFT)      &kp LEFT  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans     &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
-&kp F12           &kp F11   &kp LA(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&kp F2            &kp F9    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp RC(BACKSPACE)                                            &kp ESCAPE
+&kp F12  &kp F7  &kp F8  &kp F9  &kp LA(DOWN_ARROW)                         &kp MINUS          &kp N7        &kp N8        &kp N9        &kp PRINTSCREEN
+&kp F11  &kp F4  &kp F5  &kp F6  &kp LC(RIGHT)       &trans      &trans     &kp N0             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
+&kp F10  &kp F1  &kp F2  &kp F3  &kp LC(LS(V))       &trans      &trans     &kp EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&trans   &trans  &trans  &trans  &trans              &trans      &kp ENTER  &kp RC(BACKSPACE)                                            &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -145,10 +145,10 @@
 
         Vim {
             bindings = <
-&kp F7  &kp F8    &kp F9  &kp UP_ARROW    &trans                         &kp RS(J)      &kp RS(L)  &kp RS(U)  &kp RS(Y)  &kp SQT
-&kp F4  &kp F5    &kp F6  &kp RIGHT       &trans  &trans      &trans     &kp RS(M)      &kp RS(N)  &kp RS(E)  &kp RS(I)  &kp RS(O)
-&kp F1  &kp F2    &kp F3  &kp DOWN_ARROW  &trans  &trans      &trans     &kp RS(K)      &kp RS(H)  &kp SQT    &kp MINUS  &kp QUESTION
-&trans  &kp CLCK  &trans  &trans          &trans  &trans      &kp ENTER  &kp BACKSPACE                                   &lt 6 EXCLAMATION
+&kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW   &kp END           &kp LA(DOWN)                          &kp RS(J)      &kp RS(L)  &kp RS(U)  &kp RS(Y)  &kp SQT
+&kp LC(LEFT)      &kp LEFT  &kp DOWN       &kp RIGHT         &kp LC(RIGHT)  &trans      &trans     &kp RS(M)      &kp RS(N)  &kp RS(E)  &kp RS(I)  &kp RS(O)
+&kp F12           &kp F11   &kp LA(LC(C))  &kp LG(UP_ARROW)  &kp LC(LS(V))  &trans      &trans     &kp RS(K)      &kp RS(H)  &kp SQT    &kp MINUS  &kp QUESTION
+&kp F2            &kp F9    &kp LG(DOWN)   &trans            &trans         &trans      &kp ENTER  &kp BACKSPACE                                   &lt 6 EXCLAMATION
             >;
 
             sensor-bindings = <&scroll_up_down>;
