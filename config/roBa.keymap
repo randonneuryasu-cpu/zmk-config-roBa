@@ -156,10 +156,10 @@
 
         Atok {
             bindings = <
-&kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(LC(F11))  &kp LS(B)                             &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN
-&kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(LC(F12))  &kp LS(G)  &trans             &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp ESCAPE
-&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LC(F10)      &kp LS(V)  &kp LG(SPACE)      &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp DELETE
-&trans     &trans     &trans     &trans           &trans     &trans             &trans  &trans                           &trans
+&kp LS(Q)        &kp LS(W)        &kp LS(F)    &kp LS(LC(F11))  &kp LS(B)                             &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN
+&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LC(F10)  &kp LC(F12)      &kp LS(G)  &trans             &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp ESCAPE
+&kp LS(Z)        &kp LS(X)        &kp LS(C)    &kp LC(F10)      &kp LS(V)  &kp LG(SPACE)      &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp DELETE
+&trans           &trans           &trans       &trans           &trans     &trans             &trans  &trans                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
