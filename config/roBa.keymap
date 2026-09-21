@@ -147,7 +147,7 @@
             bindings = <
 &kp LA(UP_ARROW)  &kp HOME  &kp UP_ARROW   &kp END           &kp LA(DOWN)                          &kp F12            &kp F7  &kp F8  &kp F9  &kp LEFT_PARENTHESIS
 &kp LC(LEFT)      &kp LEFT  &kp DOWN       &kp RIGHT         &kp LC(RIGHT)  &trans      &trans     &kp F11            &kp F4  &kp F5  &kp F6  &kp RIGHT_PARENTHESIS
-&kp F12           &kp F11   &kp LA(LC(C))  &kp LG(UP_ARROW)  &kp LC(LS(V))  &trans      &trans     &kp F10            &kp F1  &kp F2  &kp F3  &kp LEFT_BRACKET
+&kp F12           &kp F11   &kp LC(LS(C))  &kp LG(UP_ARROW)  &kp LC(LS(V))  &trans      &trans     &kp F10            &kp F1  &kp F2  &kp F3  &kp LEFT_BRACKET
 &kp F2            &kp F9    &kp LG(DOWN)   &trans            &trans         &trans      &kp ENTER  &kp RC(BACKSPACE)                          &lt 6 RIGHT_BRACKET
             >;
 
