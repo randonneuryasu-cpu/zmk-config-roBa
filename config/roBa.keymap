@@ -86,6 +86,11 @@
             bindings = <&mkp MB2>;
             key-positions = <7 20>;
         };
+
+        Sqt {
+            bindings = <&kp SQT>;
+            key-positions = <13 12 21>;
+        };
     };
 
     macros {
