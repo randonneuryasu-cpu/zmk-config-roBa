@@ -37,11 +37,7 @@
     combos {
         compatible = "zmk,combos";
 
-        scroll {
-            bindings = <&mo 5>;
-            key-positions = <20 19>;
-        };
-
+  
         RtShift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <18 19>;
@@ -82,10 +78,6 @@
             key-positions = <10 11>;
         };
 
-        RtMB2 {
-            bindings = <&mkp MB2>;
-            key-positions = <7 20>;
-        };
     };
 
     macros {
@@ -171,7 +163,7 @@
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &bootloader
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
